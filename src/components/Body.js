@@ -6,7 +6,7 @@ import Shimmer from "./Shimmer";
 
 const Body = () => {
 
-    const [listOfResturant,setListOfRestaurant]=useState([])
+const [listOfResturant,setListOfRestaurant]=useState([])
 
 useEffect(()=>{
     fetchData();
@@ -15,7 +15,7 @@ useEffect(()=>{
 const fetchData=async()=>{
     const data=await fetch("https://dummyjson.com/recipes");
     const json=await data.json();
-    setListOfRestaurant(json.recipes);
+    setListOfRestaurant(json?.recipes);
 }
 
 // if(listOfResturant.length===0){

@@ -146,3 +146,7 @@
 .footer p {
     margin: 0; /* Remove default margin */
 }
+
+.login{
+    margin-left: 20px;
+}

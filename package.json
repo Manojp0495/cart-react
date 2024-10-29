@@ -10,6 +10,7 @@
   "author": "Manoj P",
   "license": "ISC",
   "devDependencies": {
+    "parce": "^1.2.8",
     "parcel": "^2.12.0",
     "process": "^0.11.10"
   },
